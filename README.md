@@ -1,6 +1,6 @@
 # ATT-CNN Neural Network
 
-This repository contains the implementation of a deep learning model as described in our research article. The model uses a convolutional neural network with non-local blocks to predict C-N=N-C dihedral angle from IR and Raman spectral data.
+This repository contains the implementation of a deep learning model as described in our research article titled **Unlocking azobenzene isomerization mechanisms via an LLM agent-driven workflow integrating simulation, experiment, and machine learning**. The model uses a convolutional neural network with non-local blocks to predict C-N=N-C dihedral angle from IR and Raman spectral data.
 
 ## Environment Setup
 
@@ -96,6 +96,10 @@ The model architecture consists of:
 - Three convolutional blocks with batch normalization, ReLU activation, and max pooling
 - Two non-local blocks for capturing long-range dependencies
 - Fully connected layers for final prediction
+
+## Code for preparing GraphRAG input files in the research
+
+Relevant code can be found in directory "text_preprocess". It includes its own README file covering the details.
 
 ## Citation
 
